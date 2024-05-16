@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <title>PraveensTeam</title>
+  </head>
+
+  <body>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>
+              Login to Praveen'sTeam
+              <img src="./asset/logo.jpg" id="logo" width="100px" />
+            </h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form action="login.php" method="post" class="login-form">
+          <input type="text" name="username" id="username" placeholder="username" required />
+          <input type="password" name="password" id="password" placeholder="password" required />
+          <a href="./home.html" class="button-link">Login</a>
+          <p class="message">
+            Not registered? <a href="./registration.html">Create an account</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
